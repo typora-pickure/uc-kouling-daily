@@ -7,7 +7,7 @@
 仓库上传后，Gopeed 可以用这个 raw 地址：
 
 ```text
-https://raw.githubusercontent.com/typora-pickure/uc-kouling-daily/main/latest.txt
+https://raw.githubusercontent.com/typora-pickure/uc-kouling-daily/refs/heads/main/latest.txt
 ```
 
 如果开启 GitHub Pages，也可以用：

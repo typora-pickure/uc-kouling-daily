@@ -9,6 +9,7 @@ function normalizeKouling(text) {
     .split("\n")
     .map((line) => line.replace(/^\s*\d+\s+/, "").trim())
     .filter(Boolean)
+    .filter((line) => !/^\d+$/.test(line))
     .filter((line) => !/^(Plain Text|复制代码|复制|Copy)$/i.test(line))
     .join("\n")
     .trim();
