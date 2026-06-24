@@ -35,7 +35,10 @@ https://typora-pickure.github.io/uc-kouling-daily/
 GitHub Actions 使用 UTC 时间。当前配置是每天北京时间 00:20 运行：
 
 ```yaml
-cron: "20 16 * * *"
+cron: "5 16 * * *"
+cron: "10 16 * * *"
+cron: "30 16 * * *"
+cron: "0 17 * * *"
 ```
 
 也可以在仓库 `Actions -> Update kouling -> Run workflow` 手动运行。
